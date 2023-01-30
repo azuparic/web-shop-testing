@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-24T12:07:38Z" name="AllTestsSuite" finished-at="2022-02-24T12:09:11Z" duration-ms="92954">
+    <groups>
+    </groups>
+    <test started-at="2022-02-24T12:07:38Z" name="Web test" finished-at="2022-02-24T12:09:11Z" duration-ms="92954">
+      <class name="SearchTest">
+        <test-method is-config="true" signature="SetupTest()[pri:0, instance:SearchTest@31c88ec8]" started-at="2022-02-24T12:07:46Z" name="SetupTest" finished-at="2022-02-24T12:07:49Z" duration-ms="2285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetupTest -->
+        <test-method signature="EmptySearch()[pri:1, instance:SearchTest@31c88ec8]" started-at="2022-02-24T12:07:49Z" name="EmptySearch" finished-at="2022-02-24T12:07:52Z" duration-ms="3597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmptySearch -->
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:SearchTest@31c88ec8]" started-at="2022-02-24T12:07:52Z" name="teardownTest" finished-at="2022-02-24T12:07:52Z" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTest -->
+        <test-method is-config="true" signature="SetupTest()[pri:0, instance:SearchTest@31c88ec8]" started-at="2022-02-24T12:08:18Z" name="SetupTest" finished-at="2022-02-24T12:08:21Z" duration-ms="3114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetupTest -->
+        <test-method signature="RandomTextSearch()[pri:2, instance:SearchTest@31c88ec8]" started-at="2022-02-24T12:08:21Z" name="RandomTextSearch" finished-at="2022-02-24T12:08:25Z" duration-ms="3735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RandomTextSearch -->
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:SearchTest@31c88ec8]" started-at="2022-02-24T12:08:25Z" name="teardownTest" finished-at="2022-02-24T12:08:25Z" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTest -->
+        <test-method is-config="true" signature="SetupTest()[pri:0, instance:SearchTest@31c88ec8]" started-at="2022-02-24T12:08:48Z" name="SetupTest" finished-at="2022-02-24T12:08:51Z" duration-ms="2435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetupTest -->
+        <test-method signature="ItemSearch()[pri:3, instance:SearchTest@31c88ec8]" started-at="2022-02-24T12:08:51Z" name="ItemSearch" finished-at="2022-02-24T12:08:58Z" duration-ms="6878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ItemSearch -->
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:SearchTest@31c88ec8]" started-at="2022-02-24T12:08:58Z" name="teardownTest" finished-at="2022-02-24T12:08:58Z" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTest -->
+      </class> <!-- SearchTest -->
+      <class name="LoginTest">
+        <test-method is-config="true" signature="SetupTest()[pri:0, instance:LoginTest@3daa422a]" started-at="2022-02-24T12:07:38Z" name="SetupTest" finished-at="2022-02-24T12:07:42Z" duration-ms="3752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetupTest -->
+        <test-method signature="LoginOnlyMail()[pri:1, instance:LoginTest@3daa422a]" started-at="2022-02-24T12:07:42Z" name="LoginOnlyMail" finished-at="2022-02-24T12:07:46Z" duration-ms="4199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginOnlyMail -->
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:LoginTest@3daa422a]" started-at="2022-02-24T12:07:46Z" name="teardownTest" finished-at="2022-02-24T12:07:46Z" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTest -->
+        <test-method is-config="true" signature="SetupTest()[pri:0, instance:LoginTest@3daa422a]" started-at="2022-02-24T12:08:12Z" name="SetupTest" finished-at="2022-02-24T12:08:16Z" duration-ms="3792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetupTest -->
+        <test-method signature="LoginOnlyPassword()[pri:2, instance:LoginTest@3daa422a]" started-at="2022-02-24T12:08:16Z" name="LoginOnlyPassword" finished-at="2022-02-24T12:08:18Z" duration-ms="2148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginOnlyPassword -->
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:LoginTest@3daa422a]" started-at="2022-02-24T12:08:18Z" name="teardownTest" finished-at="2022-02-24T12:08:18Z" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTest -->
+        <test-method is-config="true" signature="SetupTest()[pri:0, instance:LoginTest@3daa422a]" started-at="2022-02-24T12:08:39Z" name="SetupTest" finished-at="2022-02-24T12:08:44Z" duration-ms="4309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetupTest -->
+        <test-method signature="LoginIncorrectCredentials()[pri:3, instance:LoginTest@3daa422a]" started-at="2022-02-24T12:08:44Z" name="LoginIncorrectCredentials" finished-at="2022-02-24T12:08:48Z" duration-ms="4470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginIncorrectCredentials -->
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:LoginTest@3daa422a]" started-at="2022-02-24T12:08:48Z" name="teardownTest" finished-at="2022-02-24T12:08:48Z" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTest -->
+      </class> <!-- LoginTest -->
+      <class name="ItemTest">
+        <test-method is-config="true" signature="SetupTest()[pri:0, instance:ItemTest@1cbbffcd]" started-at="2022-02-24T12:07:52Z" name="SetupTest" finished-at="2022-02-24T12:08:02Z" duration-ms="9281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetupTest -->
+        <test-method signature="FavoriteItem()[pri:1, instance:ItemTest@1cbbffcd]" started-at="2022-02-24T12:08:02Z" name="FavoriteItem" finished-at="2022-02-24T12:08:12Z" duration-ms="10063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FavoriteItem -->
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:ItemTest@1cbbffcd]" started-at="2022-02-24T12:08:12Z" name="teardownTest" finished-at="2022-02-24T12:08:12Z" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTest -->
+        <test-method is-config="true" signature="SetupTest()[pri:0, instance:ItemTest@1cbbffcd]" started-at="2022-02-24T12:08:25Z" name="SetupTest" finished-at="2022-02-24T12:08:31Z" duration-ms="6154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetupTest -->
+        <test-method signature="CompareItem()[pri:2, instance:ItemTest@1cbbffcd]" started-at="2022-02-24T12:08:31Z" name="CompareItem" finished-at="2022-02-24T12:08:39Z" duration-ms="8055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CompareItem -->
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:ItemTest@1cbbffcd]" started-at="2022-02-24T12:08:39Z" name="teardownTest" finished-at="2022-02-24T12:08:39Z" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTest -->
+        <test-method is-config="true" signature="SetupTest()[pri:0, instance:ItemTest@1cbbffcd]" started-at="2022-02-24T12:08:58Z" name="SetupTest" finished-at="2022-02-24T12:09:05Z" duration-ms="7126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetupTest -->
+        <test-method signature="AddItemToCart()[pri:3, instance:ItemTest@1cbbffcd]" started-at="2022-02-24T12:09:05Z" name="AddItemToCart" finished-at="2022-02-24T12:09:11Z" duration-ms="6106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddItemToCart -->
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:ItemTest@1cbbffcd]" started-at="2022-02-24T12:09:11Z" name="teardownTest" finished-at="2022-02-24T12:09:11Z" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTest -->
+      </class> <!-- ItemTest -->
+    </test> <!-- Web test -->
+  </suite> <!-- AllTestsSuite -->
+</testng-results>
